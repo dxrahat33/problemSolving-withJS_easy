@@ -10,3 +10,18 @@ if you get less than 80 go to home and sleep and act sad
 Note: 
 use nested if-else-if-else
 */
+
+let score = prompt("enter your score:");
+
+if (score >80) {
+    console.log("Go for lunch")
+}
+else if(score <80 && score >=60){
+    console.log("Good luck next time");
+}
+else if (score < 60 && score >= 40){
+    console.log("keep you friend's message unseen");
+}
+else {
+    console.log("block your friend");
+}
