@@ -22,7 +22,7 @@ Write a loop that goes from 1 to 100, but stops (using break) when it encounters
  */
 
 for (let i = 1; i <= 100; i++) {
-    let sqrt = i ** 0.5;
+    let n = i ** 0.5;
     if (i > 1 && Number.isInteger(sqrt)) {
         console.log(i);
         break
