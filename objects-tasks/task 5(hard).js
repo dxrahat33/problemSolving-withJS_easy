@@ -18,3 +18,4 @@ age: 25,
 city: 'Example City',
 isStudent: true
 };
+

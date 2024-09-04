@@ -3,7 +3,7 @@
 
 // 4
 
-Input:
+// Input:
 
 let student = {
     name: 'Ariana Grande',
@@ -11,3 +11,7 @@ let student = {
     city: 'Gaibandha',
     isStudent: true
 };
+
+const numberCount = Object.keys(student).length;
+
+console.log(numberCount)
