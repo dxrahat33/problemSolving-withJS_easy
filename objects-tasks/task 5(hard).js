@@ -1,6 +1,6 @@
 // Loop through an object and print the key-value pairs with their types
 
-// Input:
+
 /**
  * Output:
 
@@ -19,3 +19,6 @@ city: 'Example City',
 isStudent: true
 };
 
+for(let keys in myObject) {
+    console.log('key', ':', keys , '|' , 'type', ':', typeof(myObject[keys]))
+}
