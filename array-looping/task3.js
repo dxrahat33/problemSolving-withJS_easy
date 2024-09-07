@@ -5,3 +5,11 @@
 // Output:
 
 // 'TomTimTinTik'
+
+var numbers = ['Tom', 'Tim', 'Tin', 'Tik'];
+
+var concatenate = ""
+for (const text of numbers) {
+    concatenate = concatenate + text
+}
+console.log(concatenate)
